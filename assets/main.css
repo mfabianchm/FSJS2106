@@ -1,0 +1,74 @@
+body {
+    background-color: orange;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.text-nav {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+
+}
+
+nav {
+    background-color: rgb(22, 155, 142);
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.caja {
+    color: rgb(22, 155, 142);
+    
+}
+
+.logo-imagen {
+    height: 50px;
+    width: 70px;
+}
+
+h1{
+    color: white;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+ .nosotros {
+    color: white;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+
+    
+}
+  div img
+ {
+    height: 600px;
+    width: 775px;
+
+}
+
+.primera-parte {
+    width: 100vw;
+}
+
+
+
+
+ 
