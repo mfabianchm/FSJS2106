@@ -22,6 +22,19 @@ nav {
 }
 
 
+.primera-parte {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.primera-parte img {
+    width: 50%;
+}
+
+
+
 .caja {
     color: rgb(22, 155, 142);
     
@@ -46,15 +59,40 @@ section {
 
 
  .nosotros {
-    color: white;
-    height: 600px;
-    background-color: black;
     display: flex;
+    width: 100vw;
     flex-direction: row;
-    align-items: center;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 600px;
+ }
+
+
+ .nosotros div img {
+     width: 50vw;
+     height: 600px;
+ }
+
+ .nosotros div h2, p {
+     color:white;
+
+ }
+
+ .nosotros .texto-nosotros  {
+     
+    width: 50%;
+     background-color: black;
+     
     
+ }
 
+ .nosotros .texto-nosotros h2 {
+     text-align: center;
+ }
 
+ .nosotros .texto-nosotros p {
+     text-align: center;
+ }
     
 }
   div img
@@ -64,10 +102,98 @@ section {
 
 }
 
-.primera-parte {
-    width: 100vw;
+
+#tabla-precios {
+    display: inline-block;
+    width: 100%;
+    margin-top: 50px;
 }
 
+/*columnas*/
+.precio-col {
+    display:inline-block;
+    background-color: rgb(22, 155, 142);
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    box-shadow: 0px 2px 5px black;
+}
+
+@media (min-width: 768px)  {
+    .precio-col {
+        width: 32%;
+        float: left;
+        margin-right: 1%;
+    }
+}
+
+/*Headers*/
+.precio-col-header {
+    background-color: rgb(156, 23, 156);
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.precio-col-header h3 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.precio-col-header p {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 0;
+} 
+
+/*caracteristicas*/
+
+.precio-col-features {
+padding: 0 20px 20px 20px;
+
+}
+
+.precio-col-features p {
+    padding: 20px 0;
+    margin: 0;
+    text-align: center;
+    border-top: 1px solid white;
+    color: white;
+}
+
+.precio-col-features p:first-child {
+    border-top: none;
+}
+
+/*comprar*/
+
+.precio-col-comprar {
+    padding: 10px;
+    max-width: 250px;
+    text-align: center;
+    background-color: orange;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+    border: 2px solid orange;
+}
+
+
+.precio-col-comprar a {
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+.precio-col-comprar:hover {
+    background-color: rgb(156, 23, 156)
+}
 
 
 
